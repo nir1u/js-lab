@@ -1,5 +1,6 @@
 let light;
-while (true) {
+let count = prompt("how many time you want to play:")
+while (count>0) {
     light = prompt("Enter the color of the light :");
     if (light === "red") {
         console.log("green");
@@ -10,4 +11,5 @@ while (true) {
     } else {
         console.log("the color is unvailable");
     }
+    count--
 }
